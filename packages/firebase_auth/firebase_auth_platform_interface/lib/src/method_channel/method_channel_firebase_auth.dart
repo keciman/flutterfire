@@ -295,7 +295,7 @@ class MethodChannelFirebaseAuth extends FirebaseAuthPlatform {
     MethodChannelUserCredential userCredential =
         MethodChannelUserCredential(this, data);
 
-    currentUser = userCredential.user;
+    //currentUser = userCredential.user;
     return userCredential;
   }
 
